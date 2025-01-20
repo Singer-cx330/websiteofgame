@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>游戏引导系统</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <meta name="description" content="专业的游戏攻略指南，提供最新最全的游戏攻略、技巧和资讯">
+    <meta name="keywords" content="游戏指南,游戏攻略,游戏技巧">
+    <meta property="og:title" content="游戏指南 - 专业的游戏攻略平台">
+    <meta property="og:description" content="探索游戏的奥秘，掌握核心玩法，成为最强大的玩家">
+    <meta property="og:image" content="/images/og-image.jpg">
+    <link rel="canonical" href="https://yourdomain.com">
+</head>
+<body>
+    <div class="bubble-container"></div>
+    <div class="container">
+        <nav class="sidebar" role="navigation" aria-label="主导航">
+            <div class="logo" role="banner">
+                <i class="fas fa-gamepad" aria-hidden="true"></i>
+                <h1>游戏指南</h1>
+            </div>
+            <div class="search-box" role="search">
+                <input type="text" placeholder="搜索指南..." aria-label="搜索指南">
+                <i class="fas fa-search" aria-hidden="true"></i>
+            </div>
+            <ul id="menu" role="menu"></ul>
+        </nav>
+        
+        <main class="content">
+            <header class="content-header">
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="breadcrumb" id="breadcrumb">首页</div>
+            </header>
+            <div id="content-area"></div>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html> 
